@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Arimo-Bold';
+  src: url('../public/fonts/Arimo-Bold.ttf');
+}
+@font-face {
+  font-family: 'Arimo-Medium';
+  src: url('../public/fonts/Arimo-Medium.ttf');
+}
+@font-face {
+  font-family: 'Arimo-MediumItalic';
+  src: url('../public/fonts/Arimo-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'Arimo-Regular';
+  src: url('../public/fonts/Arimo-Regular.ttf');
+}
+@font-face {
+  font-family: 'NotoSans-Medium';
+  src: url('../public/fonts/NotoSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'NotoSans-MediumItalic';
+  src: url('../public/fonts/NotoSans-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../public/fonts/NotoSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../public/fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../public/fonts/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../public/fonts/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../public/fonts/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: 'Roboto-MediumItalic';
+  src: url('../public/fonts/Roboto-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../public/fonts/Roboto-Regular.ttf');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#panel {
+	display: none;
+	background-color: gray;
+	z-index: 2;
+}
+
+#profileIcon {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin: 20px 20px auto 40px;
+  background-color: white;
+}
+
+#twitter-logo {
+	position: fixed;
+	top: 30px;
+	left: 10%;
+}
+
+#tweet-form {
+	margin: auto;
+	width: 95%;
+}
+
+#tweet-area {
+	padding: 20px;
+	border-radius: 5px;
+	width: 50%;
+	border: 0.1px solid #cccccc;
+	font-size: 19px;
+	font-family: 'NotoSans-Regular';
+}
+
+#tweet-button {
+	position: absolute;
+	width: 136px;
+	height: 34px;
+	background: #4C9EEB;
+	border-radius: 16px;
+	border: none;
+	color: white;
+	margin-left: 20px;
+}
+
+#form-label {
+	margin-right: 50px;
+	font-size: 20px;
+}
+
+#profile {
+	display: none;
+}
+
+.form {
+    position: relative;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 0px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 20px;
+    border-radius: 40px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    border:none;
+}
+
+.tweets {
+	text-align: left;
+	font-family: 'Arimo-Regular';
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.trends {
+	background-color: #E7ECF0;
+}
+
+.container {
+	text-align: left;
+}
+
+#sign-up-page {
+	width: 124px;
+	height: 124px;
+	background-color: #4C9EEB;
+}
+
+#login-form {
+	width: 300px;
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+}
+
+#login-heading {
+	font-family: 'Arimo-Bold';
+	font-size: 25px;
+	color: white;
+}
+
+#link {
+	font-family: 'Roboto-Bold';
+	font-size: 22px;
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {  
+  #profileIcon {
+	display: block;
+  }
+  
+  #tweet-area {
+	  width: 100%;
+  }
+
+  #tweet-button, #form-label {
+	  margin: auto;
+  }
+}
+
