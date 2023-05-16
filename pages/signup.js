@@ -22,7 +22,11 @@ export default function Signup() {
 			body: formData
         });
 		
-		await signIn("credentials", {username: i2.value, password: i3.value});
+		console.log('Response is: ', r.r);
+		const response = await r.json();
+		
+		if (response.r === 'no') alert('The username already exits!');
+		else await signIn("credentials", {username: i2.value, password: i3.value});
 		
 	};
 	

@@ -83,14 +83,9 @@ a {
 }
 
 #twitter-logo {
-	position: fixed;
+	position: absolute;
 	top: 30px;
 	left: 10%;
-}
-
-#tweet-form {
-	margin: auto;
-	width: 95%;
 }
 
 #tweet-area {
@@ -120,6 +115,11 @@ a {
 
 #profile {
 	display: none;
+}
+
+#users {
+	text-align: left;
+	padding: 30px;
 }
 
 .form {
@@ -210,6 +210,10 @@ a {
 
   #tweet-button, #form-label {
 	  margin: auto;
+  }
+  
+  #twitter-logo {
+	  display: none;
   }
 }
 

@@ -1,7 +1,7 @@
 .column {
   float: left;
+  min-height: 1050px;
   padding: 30px;
-  height: 800px;
   text-align: center;
   
 }
@@ -94,6 +94,26 @@
 	color: #4C9EEB;
 }
 
+.tweetArea {
+	padding: 20px;
+	border-radius: 5px;
+	width: 50%;
+	border: 0.1px solid #cccccc;
+	font-size: 19px;
+	font-family: 'NotoSans-Regular';
+}
+
+.tweetForm {
+	margin: auto;
+	width: 95%;
+}
+
+.commentForm {
+	margin: auto;
+	width: 100%;
+}
+
+
 @media screen and (max-width: 600px) {
   .column {
 	border: none;
@@ -113,4 +133,9 @@
 		padding: 10px;
 		margin-top: 80px;
 	}
+	
+	.tweetArea {
+	  width: 100%;
+	}
+
 }
